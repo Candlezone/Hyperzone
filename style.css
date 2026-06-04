@@ -1,0 +1,54 @@
+<style>
+body {
+  background-image: url(https://files.catbox.moe/kx93oi.png);
+  background-size: 100% 170%;
+}
+
+h1{
+   border: 3px solid #70ffa5;
+   padding:5px;
+   background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pueXYyd3N5ZGRlY2ZoNXZ4cGZ3OW5scWRscGF0Y2N1b2I4YjUzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dYtHPYJxZblCcWPwcQ/200.gif);
+   background-size: cover;
+
+main {
+  background-color: #e6fffe;
+  border: 3px solid #70ffa5;
+}
+  main:before {
+  width: 100%;
+  height: 300px;
+  display: block;
+  content: "";
+  background-image: url('https://64.media.tumblr.com/96db6a32b8b9deaba74f5ef8d6f8addc/6cc93bff57ba7466-f3/s500x339/7e2f9c1d9cccd3be9ae4eebd996c2ff19c971ff8.gif');
+  background-size: 100%;
+  background-position: center center;
+}
+body::after{
+content: " ";
+display: block;
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: linear-gradient(rgba(255, 213, 237, 0.3) 80%, rgba(221, 254, 255, 0.3) 80%);
+z-index: 1011;
+background-size: 100% 2px, 3px 100%;
+pointer-events: none;
+}
+body::before{
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 1010;
+    pointer-events: none;
+    background-image: url('https://media.tenor.com/v5w0Fak7A18AAAAM/kirby.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: KirbyHi 2s ease 0s 1 normal forwards;
+}
+@keyframes KirbyHi { 
+    0%, 75% { opacity: 1; } 
+    100% { opacity: 0; } </style>
