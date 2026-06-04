@@ -1,1 +1,148 @@
-theme: minima
+<style>
+body {
+  background-image: url(https://files.catbox.moe/kx93oi.png);
+  background-size: 100% 170%;
+}
+
+/* this is the spacehey logo */
+
+.logo {
+content:url("https://files.catbox.moe/y83paq.png");
+   width: 165px !important;
+   height: 75px !important;
+}
+
+/* this is the online img*/
+.online img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(94%) saturate(0%) hue-rotate(167deg) brightness(95%) contrast(105%)!important;
+}
+
+
+/* this is color of all the text and links. DO NOT GET RID OF 'a,' */
+
+a, .profile .friends .person p, p, h2, h3, h4, .count, nav .links a{
+  color: #380422!important;
+}
+
+h1{
+   border: 3px solid #70ffa5;
+   padding:5px;
+   background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pueXYyd3N5ZGRlY2ZoNXZ4cGZ3OW5scWRscGF0Y2N1b2I4YjUzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dYtHPYJxZblCcWPwcQ/200.gif);
+   background-size: cover;
+}
+button {
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pueXYyd3N5ZGRlY2ZoNXZ4cGZ3OW5scWRscGF0Y2N1b2I4YjUzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dYtHPYJxZblCcWPwcQ/200.gif)!important;
+  border: 3px solid #70ffa5;
+  color: #380422;
+  font-weight: bold;
+}
+.general-about .details {
+  border: 3px solid #70ffa5;
+  padding-bottom: 70px;
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pueXYyd3N5ZGRlY2ZoNXZ4cGZ3OW5scWRscGF0Y2N1b2I4YjUzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dYtHPYJxZblCcWPwcQ/200.gif);
+    background-size: cover;
+}
+.mood {
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pueXYyd3N5ZGRlY2ZoNXZ4cGZ3OW5scWRscGF0Y2N1b2I4YjUzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dYtHPYJxZblCcWPwcQ/200.gif);
+   background-size: cover;
+  border: 3px solid #70ffa5;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+.contact, .url-info, .table-section, .blog-preview, .blurbs, .friends, .profile-info {
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pueXYyd3N5ZGRlY2ZoNXZ4cGZ3OW5scWRscGF0Y2N1b2I4YjUzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dYtHPYJxZblCcWPwcQ/200.gif);
+ background-size: cover;
+  border: 2px solid #70ffa5!important;
+}
+.comments-table td {
+  border: 3px solid #70ffa5;
+}
+.table-section td {
+  border: 3px solid #70ffa5;
+}
+.comment-reply:not(:first-child) {
+    border-top: 3px solid #70ffa5;
+}
+.comment-replies {
+    border: 1px dotted#70ffa5;
+}
+nav .top{
+  background-image: url("https://files.catbox.moe/6gbvvp.png");
+  background-size: 100%;
+  border: 3px solid #70ffa5;
+}
+nav .links {
+   background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pueXYyd3N5ZGRlY2ZoNXZ4cGZ3OW5scWRscGF0Y2N1b2I4YjUzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dYtHPYJxZblCcWPwcQ/200.gif);
+   background-size: 100%;
+   border: 3px solid #70ffa5;
+   font-weight: bold;
+}
+
+main {
+  background-color: #e6fffe;
+  border: 3px solid #70ffa5;
+}
+  main:before {
+  width: 100%;
+  height: 300px;
+  display: block;
+  content: "";
+  background-image: url('https://64.media.tumblr.com/96db6a32b8b9deaba74f5ef8d6f8addc/6cc93bff57ba7466-f3/s500x339/7e2f9c1d9cccd3be9ae4eebd996c2ff19c971ff8.gif');
+  background-size: 100%;
+  background-position: center center;
+}
+footer {
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pueXYyd3N5ZGRlY2ZoNXZ4cGZ3OW5scWRscGF0Y2N1b2I4YjUzMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dYtHPYJxZblCcWPwcQ/200.gif);
+  background-size: 100%;
+  border: 3px solid #70ffa5;
+}
+.friends:not(#comments) {
+  margin-bottom: 10px;
+}
+.comments-table {
+  border: none;
+  border-spacing: 5px;
+}
+.profile-pic {
+  padding: 15px;
+  padding-left: -30px;
+}
+.heading {
+  background-color: transparent!important;
+}
+td {
+  background-color: transparent!important;
+}
+.container {
+width: 90%;
+max-width: 930px;
+}
+body::after{
+content: " ";
+display: block;
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: linear-gradient(rgba(255, 213, 237, 0.3) 80%, rgba(221, 254, 255, 0.3) 80%);
+z-index: 1011;
+background-size: 100% 2px, 3px 100%;
+pointer-events: none;
+}
+body::before{
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 1010;
+    pointer-events: none;
+    background-image: url('https://media.tenor.com/v5w0Fak7A18AAAAM/kirby.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: KirbyHi 2s ease 0s 1 normal forwards;
+}
+@keyframes KirbyHi { 
+    0%, 75% { opacity: 1; } 
+    100% { opacity: 0; } </style>
